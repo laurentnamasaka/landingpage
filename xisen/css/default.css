@@ -792,13 +792,11 @@
  overflow:hidden
 }
 /* Editing the socials icons*/
-.footer-social-vertical {
+.footer-social-horizontal {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align icons to the left side of the column */
-    margin-top: 10px; /* Add space between icons */
+    align-items: center;
+    justify-content: space-around; /* Adjust to space the icons as desired */
+    width: 250%; /* Ensure the row takes up the full width */
 }
 
-.footer-social-vertical a {
-    margin-bottom: 10px; /* Add spacing between icons */
-}
+
