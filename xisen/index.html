@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/slick.css">
         <link rel="stylesheet" href="css/default.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/carouselstyle.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
@@ -552,7 +553,7 @@
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                                 <div class="row">
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <!-- <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
                                             <div class="price-img-4 pb-50">
                                                 <img src="img/icon/pi1.png" alt="">
@@ -569,7 +570,7 @@
                                             </ul>
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
                                             <div class="price-img-4 pb-50">
@@ -588,7 +589,7 @@
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
                                     </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                  <!-- <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
                                             <div class="price-img-4 pb-50">
                                                 <img src="img/icon/pi3.png" alt="">
@@ -605,10 +606,10 @@
                                             </ul>
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <!--<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
@@ -627,8 +628,8 @@
                                             </ul>
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                    </div>-->
+                                    <!--<div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
                                             <div class="price-img-4 pb-50">
                                                 <img src="img/icon/pi2.png" alt="">
@@ -645,8 +646,8 @@
                                             </ul>
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                    </div>-->
+                                   <!-- <div class="col-xl-4 col-lg-4 col-md-6">
                                         <div class="pricing-tab pricing-tab-4 text-center mb-30">
                                             <div class="price-img-4 pb-50">
                                                 <img src="img/icon/pi3.png" alt="">
@@ -663,7 +664,7 @@
                                             </ul>
                                             <a href="#" class="btn-grad-4"><span>Buy Now</span></a>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
@@ -683,7 +684,28 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row">
+
+                     
+                    <section aria-label="Newest Photos">
+                        <div class="carousel" data-carousel>
+                          <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+                          <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+                          <ul data-slides>
+                            <li class="slide" data-active>
+                              <img src="img/carousel/boxed-water-is-better-VPkkplpaLLI-unsplash.jpg" alt="water Image #1">
+                            </li>
+                            <li class="slide">
+                              <img src="img/carousel/linus-nylund-Q5QspluNZmM-unsplash.jpg" alt="water Image #2">
+                            </li>
+                            <li class="slide">
+                              <img src="img/carousel/tim-marshall-dYO_5KOMEkA-unsplash.jpg" alt="water Image #3">
+                            </li>
+                          </ul>
+                        </div>
+                      </section>
+                   
+                    <!-- 
+                        <div class="row">
                         <div class="col-xl-8 col-lg-10 offset-lg-1 offset-xl-2">
                             <div class="newsletter newsletter-4">
                                 <form action="#">
@@ -692,7 +714,7 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </div>  -->
                 </div>
             </section>
             <!-- newsletter-area end -->
@@ -834,5 +856,6 @@
         <script src="js/jquery.magnific-popup.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/carousel.js"></script>
     </body>
 </html>
