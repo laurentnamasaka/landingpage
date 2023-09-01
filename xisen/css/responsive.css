@@ -11,11 +11,6 @@
 	width: 600px;
 }
 
-
-
-}
-
-
 /* Normal desktop (LG) :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 .main-menu ul li {
@@ -861,6 +856,4 @@
 }
 .main-image-shape {
 	width: 300px;
-}
-
 }
