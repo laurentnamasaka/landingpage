@@ -2357,6 +2357,10 @@ font-size: 14px;
 	height: auto;
 
 }
+.image-2{
+	max-width: 50%;
+	height: auto;
+}
 .price-img{
 	position: relative;
 }
