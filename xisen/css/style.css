@@ -2350,6 +2350,12 @@ font-size: 14px;
 .pricing-tab {
 	border: 1px solid #e0e3e7;
 	padding: 60px 37px;
+	
+}
+.image{
+	max-width: 18%;
+	height: auto;
+
 }
 .price-img{
 	position: relative;
@@ -2469,8 +2475,8 @@ font-size: 14px;
 /* people */
 .people-area {
 	background-position: top;
-	padding-top: 310px;
-	background-repeat: no-repeat;
+	padding-top: 173px;
+	background-repeat:no-repeat;
 }
 .people-item h3 {
 	color: #fff;
