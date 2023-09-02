@@ -798,3 +798,11 @@
     justify-content: space-around; /* Adjust to space the icons as desired */
     width: 250%; /* Ensure the row takes up the full width */
 }
+.footer-social-horizontal a {
+    color: rgb(103, 103, 185); /* Change the color property to blue */
+}
+
+/* Optional: If you want to add some spacing between the icons */
+.footer-social-horizontal a + a {
+    margin-left: 10px; /* Adjust the margin as needed */
+}

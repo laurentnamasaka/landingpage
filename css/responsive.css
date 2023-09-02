@@ -857,3 +857,13 @@
 .main-image-shape {
 	width: 300px;
 }
+/* Add this CSS code to your stylesheet or in a <style> tag in your HTML document */
+.footer-social-horizontal a {
+    color: blue; /* Change the color property to blue */
+}
+
+/* Optional: If you want to add some spacing between the icons */
+.footer-social-horizontal a + a {
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+}					}
